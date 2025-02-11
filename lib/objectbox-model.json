@@ -1,0 +1,74 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6084533940662941806",
+      "lastPropertyId": "3:3603822669156433347",
+      "name": "Folderdata",
+      "properties": [
+        {
+          "id": "1:468100038579461176",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2306641712929148948",
+          "name": "text",
+          "type": 9
+        },
+        {
+          "id": "3:3603822669156433347",
+          "name": "fPicture",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:7369632490856512423",
+      "lastPropertyId": "4:7442515178589245756",
+      "name": "TodoItem",
+      "properties": [
+        {
+          "id": "1:9112289830996556711",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7774445457143451693",
+          "name": "text",
+          "type": 9
+        },
+        {
+          "id": "3:8475809113188233351",
+          "name": "isComplete",
+          "type": 1
+        },
+        {
+          "id": "4:7442515178589245756",
+          "name": "folderId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:3630946540848730290",
+          "relationTarget": "Folderdata"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:7369632490856512423",
+  "lastIndexId": "1:3630946540848730290",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
